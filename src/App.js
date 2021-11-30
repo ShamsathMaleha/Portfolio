@@ -7,6 +7,7 @@ import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 // import Particles from "react-particles-js";
@@ -49,7 +50,13 @@ const App = () => {
         </Slide>
       </Container>
      
-     
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
+
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />

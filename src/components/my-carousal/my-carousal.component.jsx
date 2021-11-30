@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Slide1 from "../../assets/img/carousal/slide4.jpg";
-import Slide2 from "../../assets/img/carousal/slide5.jpg";
-import Slide3 from "../../assets/img/carousal/slide6.jpg";
+import Slide1 from "../../assets/img/carousal/crousel-1.jfif";
+import Slide2 from "../../assets/img/carousal/carousel-2.jfif";
+import Slide3 from "../../assets/img/carousal/carousel-3.jfif";
 
 import "./my-carousal.styles.css";
 
